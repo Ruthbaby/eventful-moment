@@ -1,21 +1,10 @@
  <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-
-// import Login from 'Login.vue';
-import CreateAccount from './components/CreateAccount.vue';
+import CreateAccount from './views/CreateAccountView.vue';
 </script>
 
-<!-- <template>
-  <create.vue />
-   
-  <RouterView /> -->
-<!-- </template>
-
-<style scoped>
-</style> -->
 
 <template>
-  <!-- <Login /> -->
   <header class="bg-teal-700 text-white py-4 px-6 flex justify-between items-center">
       <h1 class="text-xl font-bold italic">Eventful Moments.</h1>
       <nav>

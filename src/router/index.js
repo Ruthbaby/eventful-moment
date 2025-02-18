@@ -13,6 +13,7 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
     },
+   
     {
       path: '/my-buckets',
       name: 'my-buckets',

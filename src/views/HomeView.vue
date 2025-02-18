@@ -5,5 +5,6 @@ import HomeView from '../views/HomeView.vue'
 <template>
   <main>
   <HomeView />
+  <!-- <CreateAccountView -->
   </main>
 </template>
