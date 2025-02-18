@@ -22,7 +22,6 @@ const router = createRouter({
       path: '/item/:id',
       name: 'single-item',
       component: SingleItemView,
-      props: true, // Pass route parameters as props
     },
     {
       path: '/add-item',
@@ -33,7 +32,6 @@ const router = createRouter({
       path: '/edit-item/:id',
       name: 'edit-item',
       component: EditItemView,
-      props: true,
     },
   ],
 });

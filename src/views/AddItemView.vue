@@ -1,12 +1,6 @@
 <template>
   <div class="min-h-screen bg-gray-100">
-    <header class="bg-teal-700 text-white py-4 px-6 flex justify-between items-center">
-      <h1 class="text-xl font-bold italic">Eventful Moments.</h1>
-      <nav>
-        <button class="mr-4 hover:underline">Logout</button>
-        <button class="hover:underline">My Bucket</button>
-      </nav>
-    </header>
+
 
     <main class="max-w-5xl mx-auto p-6">
       <h2 class="text-3xl font-semibold">Welcome John Doe,</h2>
@@ -34,9 +28,7 @@
       </div>
     </main>
     
-    <footer class="text-center py-4 mt-6 bg-gray-200 text-sm">
-      Eventful Moments by Place Your Name Here
-    </footer>
+    
   </div>
 </template>
 

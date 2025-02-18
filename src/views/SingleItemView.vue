@@ -1,5 +1,6 @@
 <template>
   <div class="p-6">
+    {{ myWork.params }}
     <h2 class="text-3xl font-bold text-center mb-6">Item Details</h2>
     <div class="border p-4 rounded-lg shadow">
       <h3 class="font-semibold">{{ item.title }}</h3>
@@ -11,10 +12,12 @@
 </template>
 
 <script>
+import {useRoute} from "vue-router";
 export default {
   data() {
     return {
       item: { title: "Sample Item", description: "Details about this item" },
+      myWork: useRoute(),
     };
   },
   methods: {
